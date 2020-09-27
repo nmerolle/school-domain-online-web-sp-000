@@ -26,4 +26,7 @@ attr_reader :name, :roster
   end
   
   def sort
+    
+
+  end
 end
