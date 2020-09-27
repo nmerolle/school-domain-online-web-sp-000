@@ -19,7 +19,7 @@ attr_reader :name, :roster
   
   def grade(grade_level)
     roster.detect do |x, y| 
-      if x == level
+      if x == grade_level
         return y 
       end 
     end 
