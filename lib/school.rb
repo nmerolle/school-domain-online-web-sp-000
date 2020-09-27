@@ -25,4 +25,5 @@ attr_reader :name, :roster
     end 
   end
   
+  
 end
