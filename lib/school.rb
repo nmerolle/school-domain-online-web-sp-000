@@ -29,7 +29,6 @@ attr_reader :name, :roster
     new_roster = {}
       roster.each do |x, y|
         roster[x] = y.sort
-      end
     end
   end
 end
