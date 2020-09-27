@@ -8,12 +8,14 @@ attr_reader :name, :roster
   end
   
   
-  def add_student(student, grade)
-    if @roster[grade]
-      @roster[grade] << student
+  def add_student(student, grade_level)
+    if @roster[grade_level]
+      @roster[grade_level] << student
     else
-     @roster[grade] = []
-     @roster[grade] << student
+     @roster[grade_level] = []
+     @roster[grade_level] << student
     end
   end
+  
+  
 end
