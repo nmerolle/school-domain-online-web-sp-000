@@ -10,10 +10,10 @@ attr_reader :name, :roster
   
   def add_student(student, grade)
     if @roster[grade]
-      @roster[grade] << student_name
+      @roster[grade] << student
     else
      @roster[grade] = []
-     @roster[grade] << student_name
+     @roster[grade] << student
     end
   end
 end
