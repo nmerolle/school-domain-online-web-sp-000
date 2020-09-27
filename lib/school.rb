@@ -6,4 +6,9 @@ attr_reader :name, :roster
     @name = name
     @roster = {}
   end
+  
+  
+  def add_student(student, grade)
+    roster[grade] = []
+    
 end
