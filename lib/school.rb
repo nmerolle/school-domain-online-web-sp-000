@@ -18,7 +18,7 @@ attr_reader :name, :roster
   end
   
   def grade(grade_level)
-    p grade_level.map {|x| x.values}
+    
   end
   
 end
